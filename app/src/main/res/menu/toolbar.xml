@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/other"
+        android:icon="@drawable/save"
+        android:title="other"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/more"
+        android:icon="@drawable/more"
+        android:title="save"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/download"
+        android:icon="@drawable/cloud_download"
+        android:title="download"
+        app:showAsAction="always" />
+</menu>

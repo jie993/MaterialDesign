@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/all_friend"
+        android:icon="@drawable/friends"
+        android:title="我的好友"
+        />
+    <item
+        android:id="@+id/Message"
+        android:icon="@drawable/message"
+        android:title="我的消息"
+        />
+    <item
+        android:id="@+id/news"
+        android:icon="@drawable/news"
+        android:title="新闻事件"
+        />
+    <item
+        android:id="@+id/location"
+        android:icon="@drawable/pin_location"
+        android:title="附近的人"
+        />
+    <item
+        android:id="@+id/email"
+        android:icon="@drawable/email_inbox16px"
+        android:title="我的邮箱"
+        />
+        <item
+            android:id="@+id/scan"
+            android:icon="@drawable/scan_16px"
+            android:title="扫一扫"
+            />
+    </group>
+</menu>
